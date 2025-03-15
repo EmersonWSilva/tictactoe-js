@@ -79,5 +79,6 @@ button:hover {
 }
 
 span {
-  text-decoration: double;
+  font-weight: bold;
+  color: black;
 }
