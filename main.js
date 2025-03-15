@@ -12,7 +12,7 @@ blocos.forEach(bloco => {
       bloco.textContent = currentPlayer;
       if (checkWinner()) {
         //Exibir mensagem quando houver um vencedor ou empate
-        msg.textContent = `O jogador ${currentPlayer} venceu!`;
+        msg.innerHTML = `O jogador <span>${currentPlayer}</span> venceu!`;
         gameActive = false;
       } else if ([...blocos].every(c => c.textContent !== "")) {
         //Exibir mensagem quando houver um vencedor ou empate

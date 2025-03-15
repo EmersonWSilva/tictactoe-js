@@ -1,6 +1,6 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: aquamarine;
+  background-color: black;
   margin: 0;
   padding: 0;
   display: flex;
@@ -18,7 +18,7 @@ body{
   background-color: white;
   border-radius: 20px;
   padding: 40px;
-  animation: fadeIn 0.5 ease forwards;
+  animation: fadeIn 0.5s ease forwards;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ td {
 }
 
 td:hover {
-  background-color: gray;
+  background-color: black;
   transform: scale(1.05);
 }
 
@@ -71,9 +71,13 @@ button {
   color:white;
   cursor: pointer;
   border-radius: 10px;
-  background-color: greenyellow;
+  background-color: grey;
 }
 
 button:hover {
-  background-color: green;
+  background-color: black;
+}
+
+span {
+  text-decoration: double;
 }
